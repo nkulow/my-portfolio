@@ -1,0 +1,151 @@
+.Home{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow:auto;
+}
+
+#myname{
+    color: #6dd5e0;
+}
+/* .container{
+    display: flex;
+    flex-direction: column;
+} */
+
+#movingHello{
+    font-size: 100px;
+}
+
+#div-one{
+    width: 100%;
+	text-align: left;
+	padding-top: 300px;
+	padding-right: 400px;
+	padding-left: 50px;
+	font-size: 40px;
+	line-height: 200%;
+	font-weight: 400;
+    color: white;
+    height: 100vh;
+    overflow:auto;
+}
+#about {
+    height: 100vh;
+    position: relative;
+    padding-top: 70px;
+}
+#portfolio{
+    height: 100vh;
+    position: relative;
+    padding-top: 70px;
+}
+#contact{
+    height: 100vh;
+    position: relative;
+    padding-top: 70px;
+}
+
+#fileIcon{
+    margin-left: 20px;
+}
+/* hover over icons for slide out text */
+li {
+    overflow: hidden;
+    background: #FFFFFF;
+    list-style: none;
+    white-space:nowrap;
+    margin-right: 10px;
+    border-radius: 25px;
+    display: inline-block;
+}
+    li a {
+        opacity: 0;
+        color: #6dd5e0;
+        max-width: 0;
+        display: inline-block;
+        text-decoration: none;
+        transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color;
+    }
+        li a:hover {
+            color: rgb(60,60,60);
+            cursor: pointer;
+        }
+        li a i {
+            float:right;
+            display: block;
+            padding-right: 1em;
+            font:1em/1 'rokkitt', sans-serif;
+            font-size: 70%;
+        }
+    li b {
+        color: #6dd5e0;
+        line-height:1;
+        font-size: 25px;
+        display: inline-block;
+        padding: 10px 10px;
+    }
+    
+        li:hover a {
+            opacity: 1;
+            max-width: 600px;
+            transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
+        }
+
+/* styling for github link*/
+#dev{
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        transition: top ease .5s;
+        color: #6dd5e0;
+        text-decoration: none;
+        
+    }
+    #dev:hover{
+        top: -10px;
+        cursor: pointer;
+    }
+    a:link{
+        color: #6dd5e0;
+    }
+    a:visited{
+        color: #6dd5e0;
+    }
+    a:active{
+        color: #6dd5e0;
+    }
+
+/* animated greeting */
+.ml11 {
+ 
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
